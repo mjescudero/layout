@@ -1,0 +1,208 @@
+
+            .bloc1{
+                
+                padding: 5px;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                background-image: url("images/fons.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                
+                                               
+            }
+            .caixa11{
+                padding: 5px;
+                margin: 5px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+            .logo{
+                padding: 5px;
+                margin: 5px;
+                flex-grow: 0;                                
+            }
+            .navegacio{
+                padding: 5px;
+                margin: 5px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                list-style: none;
+                flex-grow: 2;
+               
+            }
+            .navegacio a {
+                color: rgb(163, 162, 162);
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+            }
+            .navegacio a:hover {
+                background: #90c0f7;
+            }
+            .xarxes{
+                padding: 5px;
+                margin: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+                           
+           .text{
+               
+                padding: 5px;
+                margin: 5px;       
+                background-color: transparent;
+                color: rgb(175, 18, 18);  
+                text-align: center;
+             
+                
+           }
+
+            .bloc2{
+                background: rgb(240, 236, 236);
+                padding: 5px;
+                margin: 10px;
+                display:flex;
+                justify-content:space-between;
+                                
+            }
+             .caixa21{
+                padding: 5px;
+                margin: 5px;
+                flex-grow: 2;
+                display:flex;
+                flex-wrap: wrap;
+                flex-basis: 75%;
+            
+            }
+            .article{
+                background: rgb(226, 226, 224);
+                margin: 5px;
+                padding: 5px;
+                flex-grow: 1;
+                flex-basis: 40%;
+        
+                           
+            }
+            .responsive{
+                width: 100%;
+                height: auto;
+            }
+            .data{
+                color:rgb(241, 240, 240);
+                margin-top: -25px;
+                margin-left: 5px;
+                font-size: small;
+                                     
+            }
+            .titol{
+                background: red;
+                color:white;
+                margin-top: -10px;
+               
+               
+               
+              
+            }
+            .article p{
+                margin-left: 10px;
+                margin-bottom: 0px;
+                          
+            }
+            .article a {
+                text-decoration: none;
+                display: block;
+                margin-top: 15px;
+                color: rgb(151, 146, 146);
+                          
+            }
+            
+            
+            .item3_gran{
+                background: rgb(175, 216, 243);
+                margin: 5px;
+                padding: 5px;
+                flex-grow: 2;
+                flex-basis: 50%;
+                
+            }
+            .paginacio{
+                padding: 0px;
+                margin: 0px;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                list-style: none;
+                
+               
+            }
+            .paginacio a {
+                color: rgb(163, 162, 162);
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+            }
+            .paginacio a:hover {
+                background: #90c0f7;
+            }
+            
+            .caixa22{
+                background: rgb(219, 81, 81);
+                padding: 5px;
+                margin: 5px;
+                align-items: flex-start;
+                flex-grow: 1;
+                flex-basis: 25%;
+            
+            }
+            .item4{
+                background: rgb(238, 238, 138);
+                padding: 5px;
+                margin: 5px;
+            }
+            
+
+            .bloc3{
+                border: 10px solid black;
+                background: rgb(238, 238, 138);
+                padding: 5px;
+                margin: 10px;
+            }
+
+            @media all and (max-width: 800px) {
+                .bloc2{
+                    flex-flow: column wrap;
+                    /*background: yellow;*/
+                }
+
+            }
+            @media all and (max-width: 600px) {
+                .caixa11{
+                    flex-direction: column;
+                }
+                
+                .bloc2{
+                    flex-flow: column wrap;
+                    /*background: yellow;*/
+                }
+                .caixa21{
+                    background: rgb(65, 30, 110);
+                    flex-flow: column wrap;
+                }
+                
+                /* .item3{
+                    background: rgb(248, 169, 242);
+                    
+                }
+                .item3_gran{
+                    background: rgb(214, 205, 214);
+                }*/
+
+            }
+        
+   
